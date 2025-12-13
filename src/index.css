@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-term-bg text-term-green font-mono leading-relaxed overflow-x-hidden;
+}
+
+/* Custom scrollbar for Chrome/Safari/Webkit */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-term-bg;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-term-gray/30 rounded;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-term-green/50;
+}
