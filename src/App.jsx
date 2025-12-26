@@ -38,7 +38,7 @@ function App() {
               <span className="text-term-cyan">Currently:</span> Pursuing MSc Data Science at University of Bristol (2025-2026).
             </p>
             <p>
-              My journey is defined by rapid tech evolution. Starting with a dual tech-management degree, I entered FinTech ready to solve problems. In 3 years at HDFC AMC, I transitioned from analyzing datasets to architecting the cloud backends that power them. I build scalable systems, design resilient cloud infrastructure, and turn raw data into intelligence.
+              I had always been a curios person ever since my school days, ever eager to try out and learn things. I explored a variety of domains like web development, game development, augmented reality in my college before picking Data, the field I truly felt passionate about. Whether it be Data Science, Data Engineering, Data Analysis, Machine Learning or Artificial Intelligence I have dellved deep into them and loved every single moment. Once I did not just stop there, I aim to become a full-stack developer who along with Data and AIML can handle front-end, back-end, cloud, infra.
             </p>
           </div>
         </section>
@@ -52,31 +52,28 @@ function App() {
             {/* Job 3: Cloud Architect */}
             <div className="pl-6 relative">
                <div className="absolute w-3 h-3 bg-term-cyan rounded-full -left-[7px] top-1.5"></div>
-              <h3 className="text-xl text-term-cyan">HDFC Asset Management Co.</h3>
-              <div className="text-term-gray text-sm mb-2">[July 2022 – July 2025] :: Mumbai, In</div>
+              <h3 className="text-xl text-term-cyan">HDFC Asset Management Company Limited</h3>
+              <div className="text-term-gray text-sm mb-2">[July 2022 – July 2025] :: Mumbai, India</div>
               
               <div className="mb-4">
-                <h4 className="text-term-green font-bold"> Role: Cloud Architect & DevOps Engineer (Year 3)</h4>
+                <h4 className="text-term-green font-bold"> Role: AI Solutions Engineer</h4>
                 <ul className="list-disc list-inside text-term-gray pl-4 mt-2 space-y-1">
-                  <li>Led architectural shift from monolith to microservices on Azure.</li>
-                  <li>Implemented CI/CD pipelines (GitLab CI) reducing deployment time by 40%.</li>
-                  <li>Managed full backend lifecycle using FastAPI, Docker, and Kubernetes.</li>
-                </ul>
-              </div>
-               {/* Job 2: Data Engineer */}
-              <div className="mb-4">
-                 <h4 className="text-term-green font-bold"> Role: Data Engineer & Python Backend (Year 2)</h4>
-                 <ul className="list-disc list-inside text-term-gray pl-4 mt-2 space-y-1">
-                  <li>Built internal <span className="text-term-cyan">RAG system</span> using LangChain & Vector DBs to query compliance docs, cutting search time by 60%.</li>
-                  <li>Engineered robust Apache Airflow ETL pipelines for terabytes of transaction data.</li>
-                </ul>
-              </div>
-               {/* Job 1: Analyst */}
-              <div>
-                 <h4 className="text-term-green font-bold"> Role: Data Analyst (Year 1)</h4>
-                 <ul className="list-disc list-inside text-term-gray pl-4 mt-2 space-y-1">
-                  <li>Extracted insights on customer behavior for SIP retention strategies.</li>
-                  <li>Automated daily NAV reporting dashboards using SQL and Python Pandas.</li>
+                  <li>Analyzed customer data and drew insights using Python.</li>
+                  <li>Developed Power BI dashboards for fortnightly credit report analysis thus, migrating financial analysts from excel to Power BI and improving analyst efficiency by <span className="text-term-cyan">10 hours a week.</span></li>
+                  <li>Developed Customer Risk Profile Segmentation. A Clustering and Classification Algorithm with <span className="text-term-cyan">silhouette score of 0.93 and accuracy of 96%.</span></li>
+                  <li>Identified customer buying patterns using Market Basket Analysis by implementing the Apriori Algorithm thus improving existing models and <span className="text-term-cyan">boosting AUM by 13% for FY23.</span></li>
+                  <li>Designed Normalized SQL Schema for internal analytics platform.</li>
+                  <li>Developed Optimized SQL queries for data preprocessing.</li>
+                  <li>Automated Data preprocessing pipelines using AWS SageMaker.</li>
+                  <li>Developed SQL Functions and Procedures for efficient data insertion.</li>
+                  <li>Designed and Maintained Vector Database for company documents.</li>
+                  <li>Developed GenAI applications for internal company use to answer department specific queries.</li>
+                  <li>Developed an automation job to read over 300 mails daily and transform the incoming unstructured data to structured format and save <span className="text-term-cyan">60 manual analyst hours a month.</span></li>
+                  <li>Designed the Infra Architecture for internal analytics platform and Gen AI Applications on AWS.</li>
+                  <li>Managed multiple Conda Python environments using Docker.</li>
+                  <li>Administered Security roles and policies using AWS Security Groups.</li>
+                  <li>Deployed Nginx reverse proxy to minimize external security threat to below <span className="text-term-cyan">1%.</span></li>
+                  <li>Automated deployment of multiple environments using Jenkins and GitLab by creating a CI/CD pipeline.</li>
                 </ul>
               </div>
             </div>
