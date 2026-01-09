@@ -1,7 +1,7 @@
 import React from 'react';
 import { ReactTyped } from "react-typed";
 import Prompt from './components/Prompt';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaMobile, FaPhone } from 'react-icons/fa';
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
 
         {/* --- EXPERIENCE SECTION (The Core) --- */}
         <section id="experience">
-          <Prompt path="~/work_history" command="tail -n 3 career.log" />
+          <Prompt path="~/work_history" command="cat career.log" />
           
           <div className="pl-2 space-y-8 relative border-l border-term-gray/30 ml-2">
             {/* Job 3: Cloud Architect */}
@@ -60,8 +60,7 @@ function App() {
                 <ul className="list-disc list-inside text-term-gray pl-4 mt-2 space-y-1">
                   <li>Analyzed customer data and drew insights using Python.</li>
                   <li>Developed Power BI dashboards for fortnightly credit report analysis thus, migrating financial analysts from excel to Power BI and improving analyst efficiency by <span className="text-term-cyan">10 hours a week.</span></li>
-                  <li>Developed Customer Risk Profile Segmentation. A Clustering and Classification Algorithm with <span className="text-term-cyan">silhouette score of 0.93 and accuracy of 96%.</span></li>
-                  <li>Identified customer buying patterns using Market Basket Analysis by implementing the Apriori Algorithm thus improving existing models and <span className="text-term-cyan">boosting AUM by 13% for FY23.</span></li>
+                  <li>Identified customer buying patterns using Market Basket Analysis by implementing the Apriori Algorithm</li>
                   <li>Designed Normalized SQL Schema for internal analytics platform.</li>
                   <li>Developed Optimized SQL queries for data preprocessing.</li>
                   <li>Automated Data preprocessing pipelines using AWS SageMaker.</li>
@@ -125,14 +124,13 @@ function App() {
                 <h3>MSc. Data Science</h3>
                 <span>[Sep 2025 - Aug 2026]</span>
                </div>
-              <div className="text-term-gray">University of Bristol, UK</div>
-              <div className="text-sm text-term-gray mt-1">Focus: Large-Scale Data Engineering, AI & Text Analytics.</div>
+              <div className="text-term-gray">University of Bristol, Bristol, UK</div>
             </div>
             
             <div>
                <div className="flex justify-between text-term-cyan">
                 <h3>B.Tech (IT) + MBA (Tech Management)</h3>
-                <span>[2017 - 2022]</span>
+                <span>[June 2017 - April 2022]</span>
                </div>
               <div className="text-term-gray">NMIMS, Mumbai</div>
                <div className="text-sm text-term-gray mt-1">5-year Integrated Dual Degree.</div>
@@ -148,14 +146,19 @@ function App() {
           <span className="text-term-gray"># Session terminated. Connect via:</span>
           <div className="flex gap-6 text-xl">
             {/* Replace # with your actual links */}
-            <a href="#" className="hover:text-term-cyan transition-colors"><FaLinkedin /></a>
-            <a href="#" className="hover:text-term-cyan transition-colors"><FaGithub /></a>
-            <a href="mailto:your.email@example.com" className="hover:text-term-cyan transition-colors"><FaEnvelope /></a>
+            <a href="http://www.linkedin.com/in/kaustubhson4" className="hover:text-term-cyan transition-colors"><FaLinkedin /></a>
+            <a href="http://www.github.com/Arishtanemi4" className="hover:text-term-cyan transition-colors"><FaGithub /></a>
           </div>
         </div>
-         <div className="text-term-gray/50 text-xs text-center mt-8">
+        <div className="pl-4 mt-4 flex flex-col md:flex-row items-center gap-6">
+          <span className="text-term-gray"># Email: ksstubh.sonawane@gmail.com </span>
+        </div>
+        <div className="pl-4 mt-2 flex flex-col md:flex-row items-center gap-6">
+          <span className="text-term-gray"># Mobile: +44 7388229743</span>
+        </div>
+         {/* <div className="text-term-gray/50 text-xs text-center mt-8">
             © {new Date().getFullYear()} // Built with React + Tailwind + Caffeine
-         </div>
+         </div> */}
       </footer>
 
     </div>
