@@ -11,6 +11,7 @@ export default {
         'term-green': '#00ff00', // Classic bright terminal green
         'term-cyan': '#00ffff', // Secondary highlight color
         'term-gray': '#8b949e', // Muted text
+        'term-white': '#c9d1d9', // Primary text
       },
       fontFamily: {
         mono: ['"Fira Code"', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],

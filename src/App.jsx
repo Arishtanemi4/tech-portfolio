@@ -33,7 +33,7 @@ function App() {
         {/* --- ABOUT SECTION --- */}
         <section id="about">
           <Prompt path="~/about" command="cat summary.txt" />
-          <div className="pl-4 text-term-gray">
+          <div className="pl-4 text-term-white">
             <p className="mb-4">
               <span className="text-term-cyan">Currently:</span> Pursuing MSc Data Science at University of Bristol (2025-2026).
             </p>
@@ -53,26 +53,34 @@ function App() {
             <div className="pl-6 relative">
                <div className="absolute w-3 h-3 bg-term-cyan rounded-full -left-[7px] top-1.5"></div>
               <h3 className="text-xl text-term-cyan">HDFC Asset Management Company Limited</h3>
-              <div className="text-term-gray text-sm mb-2">[July 2022 – July 2025] :: Mumbai, India</div>
+              <span className="text-term-cyan">[July 2022 – July 2025] : Mumbai, India</span>
               
               <div className="mb-4">
                 <h4 className="text-term-green font-bold"> Role: AI Solutions Engineer</h4>
-                <ul className="list-disc list-inside text-term-gray pl-4 mt-2 space-y-1">
-                  <li>Analyzed customer data and drew insights using Python.</li>
+                <ul className="list-disc list-inside text-term-white pl-4 mt-2 space-y-1">
+                  <p><span className="text-term-green">RAG Developer</span></p>
+                  <li>Developed GenAI applications for internal company use to answer department specific queries.</li>
+                  <li>Designed and Maintained Vector Database using FAISS for internal company documents.</li>
+                  <li>Developed an automation job to read over 300 mails daily and transform the incoming unstructured data to structured format and save <span className="text-term-cyan">60 manual analyst hours a month.</span></li>
+
+                  <p><span className="text-term-green">Data Analyst</span></p>
+                  <li>Analyzed customer data and drew insights using Python Pandas.</li>
                   <li>Developed Power BI dashboards for fortnightly credit report analysis thus, migrating financial analysts from excel to Power BI and improving analyst efficiency by <span className="text-term-cyan">10 hours a week.</span></li>
                   <li>Identified customer buying patterns using Market Basket Analysis by implementing the Apriori Algorithm</li>
+
+                  <p><span className="text-term-green">Data Engineer</span></p>
                   <li>Designed Normalized SQL Schema for internal analytics platform.</li>
                   <li>Developed Optimized SQL queries for data preprocessing.</li>
                   <li>Automated Data preprocessing pipelines using AWS SageMaker.</li>
                   <li>Developed SQL Functions and Procedures for efficient data insertion.</li>
-                  <li>Designed and Maintained Vector Database for company documents.</li>
-                  <li>Developed GenAI applications for internal company use to answer department specific queries.</li>
-                  <li>Developed an automation job to read over 300 mails daily and transform the incoming unstructured data to structured format and save <span className="text-term-cyan">60 manual analyst hours a month.</span></li>
+                  
+                  <p><span className="text-term-green">Cloud Architect</span></p>
                   <li>Designed the Infra Architecture for internal analytics platform and Gen AI Applications on AWS.</li>
-                  <li>Managed multiple Conda Python environments using Docker.</li>
                   <li>Administered Security roles and policies using AWS Security Groups.</li>
                   <li>Deployed Nginx reverse proxy to minimize external security threat to below <span className="text-term-cyan">1%.</span></li>
-                  <li>Automated deployment of multiple environments using Jenkins and GitLab by creating a CI/CD pipeline.</li>
+                  <li>Coordinated deployment automation of multiple environments by harnessing Jenkins and GitLab using a CI/CD pipeline.</li>
+                  <li>Managed multiple Conda Python environments using Docker.</li>
+
                 </ul>
               </div>
             </div>
@@ -86,29 +94,29 @@ function App() {
             
             <div className="border border-term-gray/50 p-4 bg-term-bg/50">
               <h3 className="text-term-cyan mb-2 border-b border-term-gray/30 pb-1">[Cloud & DevOps]</h3>
-              <p className="text-sm text-term-gray">
-                Azure, AWS, Docker, Kubernetes, Terraform (IaC), CI/CD pipelines, Linux Admin.
+              <p className="text-sm text-term-white">
+                AWS, Docker, Linux Shell Scripting, GitLab, Nginx.
               </p>
             </div>
 
             <div className="border border-term-gray/50 p-4 bg-term-bg/50">
               <h3 className="text-term-cyan mb-2 border-b border-term-gray/30 pb-1">[Data Engineering]</h3>
-              <p className="text-sm text-term-gray">
-                ETL Pipelines, Apache Airflow, SQL/NoSQL, Vector Databases (Pinecone/Milvus for RAG), Data Warehousing.
+              <p className="text-sm text-term-white">
+                ETL Pipelines, SQL, Vector Databases (FAISS for RAG).
               </p>
             </div>
 
             <div className="border border-term-gray/50 p-4 bg-term-bg/50">
               <h3 className="text-term-cyan mb-2 border-b border-term-gray/30 pb-1">[Backend Dev]</h3>
-              <p className="text-sm text-term-gray">
-                Python (Django/FastAPI), RESTful APIs, Microservices Arch, Redis Caching.
+              <p className="text-sm text-term-white">
+                Python (FastAPI), RESTful APIs, Microservices Arch.
               </p>
             </div>
 
              <div className="border border-term-gray/50 p-4 bg-term-bg/50">
               <h3 className="text-term-cyan mb-2 border-b border-term-gray/30 pb-1">[Data Science]</h3>
-              <p className="text-sm text-term-gray">
-                Pandas, Scikit-Learn, NLP (LangChain/LLMs), PowerBI visualization.
+              <p className="text-sm text-term-white">
+                Pandas, Scikit-Learn, NLP (LangChain/LLMs), PowerBI.
               </p>
             </div>
 
@@ -124,7 +132,7 @@ function App() {
                 <h3>MSc. Data Science</h3>
                 <span>[Sep 2025 - Aug 2026]</span>
                </div>
-              <div className="text-term-gray">University of Bristol, Bristol, UK</div>
+              <div className="text-term-white">University of Bristol, Bristol, UK</div>
             </div>
             
             <div>
@@ -132,8 +140,8 @@ function App() {
                 <h3>B.Tech (IT) + MBA (Tech Management)</h3>
                 <span>[June 2017 - April 2022]</span>
                </div>
-              <div className="text-term-gray">NMIMS, Mumbai</div>
-               <div className="text-sm text-term-gray mt-1">5-year Integrated Dual Degree.</div>
+              <div className="text-term-white">NMIMS, Mumbai</div>
+               <div className="text-sm text-term-white mt-1">5-year Integrated Dual Degree.</div>
             </div>
           </div>
         </section>
@@ -143,7 +151,7 @@ function App() {
       <footer className="mt-20 border-t border-term-gray/30 pt-6 pb-10 text-center md:text-left">
         <Prompt command="exit" />
         <div className="pl-4 mt-4 flex flex-col md:flex-row items-center gap-6">
-          <span className="text-term-gray"># Session terminated. Connect via:</span>
+          <span className="text-term-white"># Session terminated. Connect via:</span>
           <div className="flex gap-6 text-xl">
             {/* Replace # with your actual links */}
             <a href="http://www.linkedin.com/in/kaustubhson4" className="hover:text-term-cyan transition-colors"><FaLinkedin /></a>
@@ -151,12 +159,12 @@ function App() {
           </div>
         </div>
         <div className="pl-4 mt-4 flex flex-col md:flex-row items-center gap-6">
-          <span className="text-term-gray"># Email: ksstubh.sonawane@gmail.com </span>
+          <span className="text-term-white"># Email: ksstubh.sonawane@gmail.com </span>
         </div>
         <div className="pl-4 mt-2 flex flex-col md:flex-row items-center gap-6">
-          <span className="text-term-gray"># Mobile: +44 7388229743</span>
+          <span className="text-term-white"># Mobile: +44 7388229743</span>
         </div>
-         {/* <div className="text-term-gray/50 text-xs text-center mt-8">
+         {/* <div className="text-term-white/50 text-xs text-center mt-8">
             © {new Date().getFullYear()} // Built with React + Tailwind + Caffeine
          </div> */}
       </footer>
